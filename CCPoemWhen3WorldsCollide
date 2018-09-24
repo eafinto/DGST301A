@@ -1,0 +1,68 @@
+#Elizabeth Finto
+#RemixProject.py
+#Friends Meet The Office 
+#Source 1: https://quotecatalog.com/quotes/tv/friends/page/4/ 
+#Source 2: https://www.yourtango.com/2018314733/30-best-office-quotes-of-all-time-for-all-the-dunderheads-in-the-room
+#Source 3: https://www.rottentomatoes.com/m/the_fault_in_our_stars/quotes/
+
+import random
+
+quotesfriends = [
+    "Welcome to the real world. It sucks. You're gonna love it!",
+    "You've been BAMBOOZLED!",
+    "You could not be any more wrong. You could try, but you would not be successful.",
+    "It's a moo point. It's like a cow's opinion; it doesn't matter. It's moo.",
+    "But they don't know that we know they know we know!",
+    "I'm not so good with the advice. Can I interest you in a sarcastic comment?"
+    "Hey, just so you know: it's NOT that common, it DOESN'T happen to every guy, and it IS a big deal!",
+    "You're so far past the line, you can't even see the line. The line is a dot to you.",
+    "Wah-pah!",
+    "Paper! Snow! A Ghost!",
+    "PIVOT!",
+    "I got off the plane!",
+    "I'm fine!",
+    "Je m'appelle Claude... Jet aplee blooo.",
+    "My motto is get out before they go down."
+]
+quotesoffice = [
+    "Oh God, my mind is going a mile an hour.",
+    "Sometimes I'll start a sentence and I don't even know where it's going. I just hope I find it along the way.",
+    "I talk a lot, so I've learned to just tune myself out",
+    "Oh, it is on, like a prawn who yawns at dawn.",
+    "I am running away from my responsibilities and it feels good.",
+    "Whenever I'm about to do something, I think, Would an idiot do that? And if they would, I do not do that thing.",
+    "It takes an advanced sense of humor. I don't expect everybody to understand.",
+    "I'm not superstitious, but I am a little stitious.",
+    "You only live once? False. You live everyday. You only die once.",
+    "Bears, Beets, Battlestar Galactica",
+    "I understand nothing.",
+    "An office is a place where dreams come true.",
+    "I wish there was a way to know you're in the good old days before you've actually left them.",
+    "That's what she said.",
+    "I knew exactly what to do. But in a much more real sense, I had no idea what to do."
+]
+quotesfaultinstars = [
+    "Okay? Okay.",
+    "It's a good life.",
+    "I'm on a rollercoaster that only goes up, my friend.",
+    "Some infinities are bigger than other infinities.",
+    "The world is not a wish-granting factory.",
+    "I'm so excited I can barely breathe!",
+    "The important thing is not what nonsense the voices are saying... but what the voices are feeling.",
+    "It's a metaphor, see:",
+    "Shouldn't we wait till dark?",
+    "What's your biggest fear?",
+    "You don't have a choice if you get hurt in this world, but you do have a say in who hurts you.",
+    "That's the thing about pain. It demands to be felt.",
+    "Slowly, then all at once.",
+    "Oblivion!",
+    "There are days, many of them, when I resent the size of my unbound set."
+    
+]
+
+print("When Three Worlds Collide by Elizabeth Finto")
+
+for q in range(5):
+    print(random.choice(quotesfriends))
+    print(random.choice(quotesoffice))
+    print(random.choice(quotesfaultinstars))
