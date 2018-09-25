@@ -4,9 +4,12 @@
 #Source 1: https://quotecatalog.com/quotes/tv/friends/page/4/ 
 #Source 2: https://www.yourtango.com/2018314733/30-best-office-quotes-of-all-time-for-all-the-dunderheads-in-the-room
 #Source 3: https://www.rottentomatoes.com/m/the_fault_in_our_stars/quotes/
+#Source 4: https://www.theodysseyonline.com/vine-thread
+#Source 5: https://www.women.com/connieliou/lists/panic-at-the-disco-captions-instagram-lyrics-062218
 
 import random
 
+#Quotes I chose to include from the TV show, "Friends"
 quotesfriends = [
     "Welcome to the real world. It sucks. You're gonna love it!",
     "You've been BAMBOOZLED!",
@@ -24,6 +27,8 @@ quotesfriends = [
     "Je m'appelle Claude... Jet aplee blooo.",
     "My motto is get out before they go down."
 ]
+
+#Quotes I chose to include from the TV show "The Office"
 quotesoffice = [
     "Oh God, my mind is going a mile an hour.",
     "Sometimes I'll start a sentence and I don't even know where it's going. I just hope I find it along the way.",
@@ -41,6 +46,8 @@ quotesoffice = [
     "That's what she said.",
     "I knew exactly what to do. But in a much more real sense, I had no idea what to do."
 ]
+
+#Quotes I chose to include from the movie, "The Fault in Our Stars"
 quotesfaultinstars = [
     "Okay? Okay.",
     "It's a good life.",
@@ -57,12 +64,31 @@ quotesfaultinstars = [
     "Slowly, then all at once.",
     "Oblivion!",
     "There are days, many of them, when I resent the size of my unbound set."
-    
 ]
 
-print("When Three Worlds Collide by Elizabeth Finto")
+#Lyrics from Panic! at the Disco songs
+quotespatd = [
+    "Being blue is better than being over it.",
+    "I wanna live life from a new perspective.",
+    "Tonight we are victorious, champagne pouring over us.",
+    "I think I'm ready to leap, I think I'm ready to live, I'm ready to go.",
+    "If you love me let me go.",
+    "These words are knives that often leave scars; The fear of falling apart.",
+    "Always on the hunt for a little more time.",
+    "Promise me a place in your house of memories.",
+    "We're swimming with the sharks until we drown.",
+    "Heroes always get remembered, but you know, legends never die.",
+    "Losing the feeling of feeling unique.",
+    "But who could love me, I am out of my mind.",
+    "Only my heart knows my head is lying.",
+    "Crazy = Genius",
+    "All was golden when the day met the night."
+]
+
+print("When Four Worlds Collide by Elizabeth Finto")
 
 for q in range(5):
     print(random.choice(quotesfriends))
     print(random.choice(quotesoffice))
     print(random.choice(quotesfaultinstars))
+    print(random.choice(quotespatd))
