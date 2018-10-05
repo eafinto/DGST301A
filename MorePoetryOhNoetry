@@ -1,0 +1,53 @@
+import textblob
+import random
+import pycorpora
+import pronouncing
+
+template = """
+    Be kind to the {0}
+    Who hasn't got a {1} 
+    And you'll find
+    That you
+    Can be kind 
+    To you too.
+"""
+
+pair = random.choice(get_pairs())
+
+poem = template.format(
+    pair[0],
+    pair[1],
+)
+
+print(poem)
+
+def get_words(pos):
+    
+    if(pos is "personal_nouns"):
+        all_words = pycorpora.words.personal_nouns["personalNouns"]
+    elif(pos is "nouns"):
+        all_words = pycorpora.words.nouns["nouns"]
+    
+    keepers = []
+    for n in all_words:
+        pronunciation_list = pronouncing.phones_for_word(n)
+        if (len(pronunciation_list) > 0):
+            syllable_count = pronouncing.syllable_count(pronunciation_list[0])
+            if (syllable_count == 3):
+                keepers.append(n)
+    
+    return keepers
+
+def get_pairs():
+    
+    personal_nouns = get_words("personal_nouns")
+    nouns = get_words("nouns")
+    
+    pairs = []
+    
+    for p in personal_nouns:
+        for n in nouns:
+            if (p in pronouncing.rhymes(n)):
+                pairs.append( (p,n) )
+    
+    return pairs
