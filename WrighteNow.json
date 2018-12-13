@@ -1,0 +1,17 @@
+{
+	"origin": ["In #geography#, #first# #actions# in a #adjectives_adverbs# #locations#. #transition# #youdo# #celebrities#. #transition# #surprise#."],
+	
+	"geography": ["Las Vegas", "Los Angeles", "Chicago", "Paris", "Rome", "England", "New Zealand", "New York City", "Mexico", "Canada", "Antarctica", "Ireland", "Scotland", "Egypt", "China", "Japan", "Russia", "the United States", "Madagascar", "Brazil", "Peru", "Iceland", "Greenland", "Texas", "Fredericksburg, Virginia", "California", "Australia"],
+	"first": ["You are", "They are", "He is", "She is", "The dog is", "The dogs are", "The cat is", "The cats are", "The doctor is",  "The police officer is", "The teacher is", "Your house is", "Your car is", "Your party is", "Your school is", "The lights are", "We are", "Kids are", "The summer is", "The trees are"],
+	"actions": ["hiding", "whispering", "singing", "dancing", "shaking", "speaking", "screaming", "yelling", "drinking", "sleeping", "reading", "watching TV", "sitting", "texting", "chasing", "praying", "decorating", 
+"driving", "purchasing", "stealing", "giving", "eating", "playing", "drawing", "falling"],
+	"adjectives_adverbs": ["beautiful", "lovely", "scary", "dark", "bright", "corporate", "dirty", "clean", "empty", "full", "big", "small", "tiny", "humongous", "gross", "welcoming", "cozy", "breezy", "cold", "hot", "comfortable", "so overrated", "haunted", "Christmasy", "snowy"],
+	"locations": ["house", "school", "library", "store", "nook", "store", "bar", "restaurant", "movie theater", "tunnel", "tent", "box", "bank", "police station", "hospital", "college", "phone booth", "hotel", "abandoned building", "bunker", "ghost town", "bookstore", "coffee shop", "Walmart", "Target", "vending machine", "neighborhood", "parking garage", "city hall", "park", "pool"],
+	"youdo": ["You come across", "You run into", "You meet", "You notice", "You wave hello to", "You see"],
+	"celebrities": ["Barack Obama", "Donald Trump", "George Clooney", "Chris Evans", "Chris Hemsworth", "Liam Hemsworth", "Robert Downey Jr.", "Mark Wahlberg", "Will Ferrell", "Adam Levine", "Zac Efron", "Ryan Reynolds", "Justin Bieber", "Channing Tatum", "Brad Pitt", "David Beckham", "Ryan Gosling", "Dwayne Johnson", "Justin Timberlake", "Chris Pratt", "Jake Gyllenhaal", "Leonardo DiCaprio", "Johnny Depp", "Tom Cruise", "Ben Affleck", "Ashton Kutcher", "Kanye West", "Robert Pattinson", "Drake", "Daniel Radcliffe", "Jon Hamm", "Matthew McConaughey", "Ellen DeGeneres", "Beyoncé", "Taylor Swift", "Rihanna", "Kim Kardashian", "Megan Fox", "Jennifer Lawrence", "Jennifer Aniston", "Julia Roberts", "Miley Cyrus", "Katy Perry", "Angelina Jolie",  "Ariana Grande", "Emma Watson", "Sandra Bullock", "Jessica Biel", "Oprah", "Anne Hathaway", "Julie Andrews", "Mila Kunis", "Demi Lovato", "Blake Lively", "Selena Gomez", "Michelle Obama", "Hilary Duff", "Hillary Clinton"],
+	"transition": ["Next,", "All of a sudden,", "Then,", "Out of nowhere,", "Next thing you know,"],
+	"surprise": ["the phone begins to ring", "your phone begins to ring", "your alarm starts to buzz", "the alarm clock starts to buzz", "you are passed a note", "a sign illuminates", "music begins to play", "you hear whispers", "a storm rolls in", "everything goes black", "you wake up", "the radio turns on"]
+	
+
+
+}
