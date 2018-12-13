@@ -1,8 +1,6 @@
 # DGST301A
-First in-class project
+Class Projects 
 
-## This is a Subheading
+## Creative Coding - Fall 2018 - UMW
 
-Paragraphs are just text.
 
-Simple_inline_formatting **like this**
